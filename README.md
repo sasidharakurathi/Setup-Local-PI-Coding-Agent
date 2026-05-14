@@ -32,7 +32,7 @@ Run **PI coding agent** connected to **Gemma 4** locally via **LM Studio**. Ever
 
 ```powershell
 winget install ElementLabs.LMStudio -e
-cmd /c %USERPROFILE%\.lmstudio\bin\lms.exe bootstrap
+& "$env:USERPROFILE\.lmstudio\bin\lms.exe" bootstrap
 ```
 Close and reopen terminal, then verify:
 ```powershell
